@@ -1,0 +1,87 @@
+.root {
+    -fx-background-color: linear-gradient(#222, grey);
+    -fx-text-fill: #777;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #222222;
+}
+
+#title {
+    -fx-font-size: 16px;
+    -fx-underline: true;
+}
+
+#buttonAdmin {
+    -fx-pref-width: 60px;
+}
+
+#cost {
+    -fx-font-size: 20px;
+}
+
+#coins {
+    -fx-pref-width: 40px;
+}
+
+#coin {
+    -fx-pref-width: 65px;
+}
+
+#input {
+    -fx-pref-width: 68px;
+    -fx-font-size: 10px;
+}
+
+#admin {
+    -fx-background-color: dimgrey;
+    -fx-font-style: italic;
+    -fx-font-size: 10px;
+}
+
+#admin:hover {
+    -fx-background-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: white;
+}
+
+.button {
+    -fx-background-color: linear-gradient(red, darkred);
+    -fx-background-radius: 5px;
+    -fx-border-color: white;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(blue, midnightblue);
+    -fx-background-radius: 8px;
+    -fx-border-color: white;
+    -fx-border-radius: 8px;
+    -fx-text-fill: white;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+.image-view {
+    -fx-alignment: center;
+}
+
+#money {
+    -fx-text-fill: darkred;
+    -fx-font-size: 22px;
+}
+
+#output {
+    -fx-background-color: linear-gradient(darkslategrey, darkgrey);
+    -fx-border-radius: 5px;
+    -fx-border-color: white;
+    -fx-font-size: 10px;
+    -fx-pref-width: 55px;
+    -fx-fit-to-height: true;
+}
